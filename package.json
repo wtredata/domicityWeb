@@ -1,5 +1,5 @@
 {
-  "name": "hiric",
+  "name": "domicity",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "@nuxt/ufo": "^0.5.4",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.2.2",
     "core-js": "^3.4.4",
+    "sweetalert2": "^10.15.7",
     "ufo": "^0.6.10",
     "vue": "^2.6.11",
     "vue-client-only": "^2.0.0",

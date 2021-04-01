@@ -37,7 +37,7 @@ export default {
     <div class="container">
       <!-- LOGO -->
       <a class="navbar-brand logo text-uppercase" href="/">
-        <i class="mdi mdi-alien"></i>Hiric
+        <i class="mdi mdi-alien"></i>Domicity
       </a>
 
       <button

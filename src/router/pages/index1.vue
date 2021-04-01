@@ -46,7 +46,7 @@ export default {
       <div class="container">
         <!-- LOGO -->
         <a class="navbar-brand logo text-uppercase" href="/">
-          <i class="mdi mdi-alien"></i>Hiric
+          <i class="mdi mdi-alien"></i>Domicity
         </a>
 
         <button
@@ -127,7 +127,7 @@ export default {
           <div class="nav-button ml-auto">
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <button type="button" class="btn btn-custom navbar-btn btn-rounded">Try it Free</button>
+                  <button type="button" class="btn btn-custom navbar-btn btn-rounded">Try it Free</button><!-- @click="$router.push('login')" -->
               </li>
             </ul>
           </div>
