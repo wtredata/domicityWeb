@@ -13,13 +13,12 @@ export default {
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-          <h1 class="section-title text-center">Get In Touch</h1>
+          <h1 class="section-title text-center">¿Quieres ser un Aliado?</h1>
           <div class="section-title-border margin-t-20"></div>
           <p
             class="section-subtitle text-muted text-center font-secondary padding-t-30"
           >
-            We thrive when coming up with innovative ideas but also understand
-            that a smart concept should be supported with measurable results.
+            Compártenos tu información a través del siguiente formulario y pronto te contactaremos
           </p>
         </div>
       </div>

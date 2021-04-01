@@ -14,24 +14,28 @@ export default {
       <div class="row align-items-center">
         <div class="col-lg-5 order-2 order-lg-1">
           <div class="features-box mt-5 mt-lg-0">
-            <h3>A digital web design studio creating modern & engaging online</h3>
+            <h3>Somos una compañía con 17 años de experiencia en el segmento domicilios</h3>
             <p
               class="text-muted web-desc"
-            >Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            >
+              Disponemos de un portafolio de servicios para las marcas que ven en el canal domicilios 
+              una oportunidad de generar ventas y rentabilidad:</p>
             <ul class="text-muted list-unstyled margin-t-30 features-item-list">
-              <li class>We put a lot of effort in design.</li>
-              <li class>The most important ingredient of successful website.</li>
-              <li class>Submit Your Orgnization.</li>
+              <li class>Chatbots</li>
+              <li class>Número Único Redireccionado</li>
+              <li class>Marketing</li>
+              <li class>Domisoft</li>
+              <li class>Encuestas</li>
             </ul>
-            <a href="#" class="btn btn-custom margin-t-30">
-              Learn More
+            <a href="http://domicity.com.co/" class="btn btn-custom margin-t-30">
+              Ver más
               <i class="mdi mdi-arrow-right"></i>
             </a>
           </div>
         </div>
         <div class="col-lg-7 order-1 order-lg-2">
           <div class="features-img mx-auto mr-lg-0">
-            <img src="@/assets/images/growth-analytics.svg" alt="macbook image" class="img-fluid" />
+            <img src="@/assets/images/about.png" alt="macbook image" class="img-fluid" />
           </div>
         </div>
       </div>
