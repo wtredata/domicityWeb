@@ -6,6 +6,8 @@ import Scrollspy from 'vue2-scrollspy';
 import BootstrapVue from 'bootstrap-vue'
 import VueYoutube from 'vue-youtube'
 import VueParticles from 'vue-particles'
+import ApiService from "./services/api.service";
+/* import { TokenService } from "./services/storage.service"; */
 
 var VueScrollTo = require('vue-scrollto');
 
@@ -22,3 +24,11 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount("#app");
+
+ApiService.init();
+
+/* if (TokenService.getToken()) {
+  ApiService.setHeader();
+}
+
+localStorage.setItem("notificaciones",JSON.stringify([])); */
