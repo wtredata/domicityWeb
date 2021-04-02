@@ -97,14 +97,14 @@ export default {
                 href="javascript: void(0);"
               >Servicio al cliente</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a
                 v-scroll-to="{ el:'#blog'}"
                 class="nav-link"
                 data-scroll-spy-id="blog"
                 href="javascript: void(0);"
               >Plan de marketing</a>
-            </li>
+            </li> -->
            <!--  <li class="nav-item">
               <a
                 v-scroll-to="{ el:'#contact' }"
