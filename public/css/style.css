@@ -53,7 +53,7 @@
 }
 
 @font-face {
-    font-family: Panton;
+    font-family: "Panton";
     font-style: italic;
     font-weight: bold;
     src: url('../fonts/Panton/PantonDemo-BlackItalic.otf');
@@ -61,8 +61,8 @@
 
 body {
     font-family: 'Panton';
-    overflow-x: hidden !important;
-    position: relative;
+    /* overflow-x: hidden !important;
+    position: relative; */
 }
 
 a,
@@ -84,7 +84,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Panton', sans-serif;
+    font-family: 'Panton';
     font-weight: 800;
 }
 
