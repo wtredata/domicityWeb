@@ -31,8 +31,36 @@
    1.BASIC
    ========== */
 
+@font-face {
+    font-family: "Panton";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Panton/PantonDemo-Light.otf");
+}
+
+@font-face {
+    font-family: "Panton";
+    font-style: normal;
+    font-weight: italic;
+    src: url('../fonts/Panton/PantonDemo-LightItalic.otf');
+}
+
+@font-face {
+    font-family: "Panton";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/Panton/PantonDemo-Black.otf");
+}
+
+@font-face {
+    font-family: Panton;
+    font-style: italic;
+    font-weight: bold;
+    src: url('../fonts/Panton/PantonDemo-BlackItalic.otf');
+}
+
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Panton';
     overflow-x: hidden !important;
     position: relative;
 }
@@ -56,8 +84,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Sarabun', sans-serif;
-    font-weight: 600;
+    font-family: 'Panton', sans-serif;
+    font-weight: 800;
 }
 
 .h1,
@@ -241,7 +269,7 @@ iframe {
 }
 
 .bg-light {
-    background-color: #fafbfe!important;
+    background-color: #fafbfe !important;
 }
 
 
@@ -573,9 +601,11 @@ iframe {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
     }
+
     50% {
         transform: translateX(-25%) translateZ(0) scaleY(0.55)
     }
+
     100% {
         transform: translateX(-50%) translateZ(0) scaleY(1)
     }
@@ -741,7 +771,7 @@ iframe {
     padding: 50px 40px 50px 40px;
     border: 1px solid #ecf0f5;
     border-radius: 8px;
-    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1)!important;
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1) !important;
     background-color: #ffffff;
     position: relative;
 }
@@ -763,7 +793,7 @@ iframe {
 }
 
 .price-active {
-    box-shadow: 0 0rem 4rem rgba(0, 0, 0, .1)!important;
+    box-shadow: 0 0rem 4rem rgba(0, 0, 0, .1) !important;
 }
 
 .plan-features p {
@@ -909,7 +939,7 @@ iframe {
     border: 1px solid transparent;
     border-radius: 8px;
     transition: all .3s ease-in-out;
-    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1)!important;
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1) !important;
 }
 
 .testimonial-box img {
@@ -1011,6 +1041,7 @@ textarea.form-control {
     color: #0dba26;
     font-size: 22px;
 }
+
 
 
 /*======================================
@@ -1157,6 +1188,7 @@ textarea.form-control {
     .navbar-custom .navbar-nav {
         margin-left: 0;
     }
+
     .home-half .slidero {
         top: 80%;
         transform: translateY(-50%);
@@ -1165,13 +1197,16 @@ textarea.form-control {
         left: 0;
         right: 0;
     }
+
     .home-half {
         padding-bottom: 100px;
         padding-top: 155px;
     }
+
     .home-padding-t-150 {
         padding-top: 110px;
     }
+
     .navbar-custom {
         margin-top: 0px;
         padding: 10px 0px !important;
@@ -1179,6 +1214,7 @@ textarea.form-control {
         box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
         color: #fff !important;
     }
+
     .navbar-white {
         margin-top: 0px;
         padding: 10px 0px !important;
@@ -1186,48 +1222,61 @@ textarea.form-control {
         box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
         color: #fff !important;
     }
+
     .navbar-white .navbar-toggler {
         color: #393f4f !important;
     }
+
     .navbar-custom .navbar-nav li a {
         transition: all 0.4s;
         margin: 0px;
     }
+
     .navbar-custom>.container-fluid {
         width: 100%;
     }
+
     .navbar-custom .navbar-nav li.active a {
         color: #fff !important;
         border-color: transparent;
     }
+
     .navbar-custom>.container {
         width: 90%;
     }
+
     .navbar-toggler {
         font-size: 24px;
         margin-top: 0px;
         margin-bottom: 0px;
         color: #fff !important;
     }
+
     .login-btn {
         padding-left: 10px;
     }
+
     .navbar-custom .navbar-brand {
         line-height: 24px;
     }
+
     .home-title {
         font-size: 32px;
         line-height: 48px;
     }
+
     .vertical-content {
         display: inherit;
     }
+
     .team-box {
         margin-top: 45px;
     }
+
     .features-img {
         margin-top: 30px;
     }
+
     .pricing-box {
         margin-top: 30px;
     }
@@ -1238,6 +1287,7 @@ textarea.form-control {
         content: "";
         display: none;
     }
+
     .process-left-icon-1 i,
     .process-left-icon-2 i {
         display: none;
@@ -1245,19 +1295,24 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
+
     .wave-one,
     .wave-three {
         background-size: 50% 50px;
     }
+
     .wave-two {
         background-size: 50% 70px;
     }
+
     .social {
         margin-top: 0;
     }
+
     .social-icon {
         margin-bottom: 5px;
     }
+
     .contact-title {
         text-align: left;
     }
@@ -1385,8 +1440,24 @@ ul.pattern .color8 {
     background-color: #f6cb42;
 }
 
+.logo-small {
+    --size: 50px;
+    margin: auto;
+}
+.align-center{
+    text-align: center;
+}
+
 @media only screen and (max-width: 479px) {
     #style-switcher {
         display: none;
     }
+}
+
+.color-primary{
+    color: #D32B35 !important;
+}
+
+.bold{
+    font-weight: 800;
 }

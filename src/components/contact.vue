@@ -26,24 +26,24 @@ export default {
         <div class="col-lg-4">
           <div class="mt-4 pt-4">
             <p class="mt-4">
-              <span class="h5">Office Address 1:</span>
+              <span class="h4 bold color-primary">Dirección</span>
               <br />
               <span class="text-muted d-block mt-2"
-                >4461 Cedar Street Moro, AR 72368</span
+                >Carrera 23 # 86A – 49, Bogotá DC</span
               >
             </p>
             <p class="mt-4">
-              <span class="h5">Office Address 2:</span>
+              <span class="h4 bold color-primary">Teléfonos</span>
               <br />
               <span class="text-muted d-block mt-2">
-                2467 Swick Hill Street
-                <br />New Orleans, LA 70171
+                (+57) 321 236 6880
+                <br />(+57 1) 6004640
               </span>
             </p>
             <p class="mt-4">
-              <span class="h5">Working Hours:</span>
+              <span class="h4 bold color-primary">Correo electrónico</span>
               <br />
-              <span class="text-muted d-block mt-2">9:00AM To 6:00PM</span>
+              <span class="text-muted d-block mt-2">info@domicity.com.co</span>
             </p>
           </div>
         </div>
@@ -58,7 +58,7 @@ export default {
                     <b-form-input
                       name="name"
                       v-model="form.name"
-                      placeholder="Tu Nombre*"
+                      placeholder="Nombre*"
                       required
                     ></b-form-input>
                   </b-form-group>
@@ -68,7 +68,7 @@ export default {
                     <b-form-input
                       name="surname"
                       v-model="form.surname"
-                      placeholder="Tu apellido*"
+                      placeholder="Apellido*"
                       required
                     ></b-form-input>
                   </b-form-group>
@@ -88,7 +88,7 @@ export default {
                     <b-form-input
                       name="phone"
                       v-model="form.phone"
-                      placeholder="Tu telefono*"
+                      placeholder="Teléfono*"
                       required
                     ></b-form-input>
                   </b-form-group>
@@ -98,7 +98,7 @@ export default {
                     <b-form-input
                       name="email"
                       v-model="form.email"
-                      placeholder="Tu correo electrónico*"
+                      placeholder="Correo electrónico*"
                       type="email"
                       required
                     ></b-form-input>
@@ -109,7 +109,7 @@ export default {
                     <b-form-input
                       name="direction"
                       v-model="form.direction"
-                      placeholder="Tu dirección*"
+                      placeholder="Dirección*"
                       required
                     ></b-form-input>
                   </b-form-group>
@@ -128,7 +128,7 @@ export default {
                 <b-col lg="4">
                 <b-form-group>
                 <template>
-                    <i class="text-primary">Departamento</i>
+                    <i class="color-primary">Departamento</i>
                     <span class="text-danger">*</span>
                   </template>
                   <b-form-select
@@ -144,7 +144,7 @@ export default {
               </b-col>
               <b-col lg="4">
                 <template>
-                    <i class="text-primary">Ciudad</i>
+                    <i class="color-primary">Ciudad</i>
                     <span class="text-danger">*</span>
                   </template>
                 <b-form-select
@@ -164,7 +164,7 @@ export default {
                     <b-textarea
                       name="description"
                       v-model="form.description"
-                      placeholder="Descripcion*"
+                      placeholder="Descripción*"
                       rows="3"
                       required
                     ></b-textarea>

@@ -13,45 +13,42 @@ export default {
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 margin-t-20">
-            <h4>HIRIC</h4>
+          <div class="col-lg-6 margin-t-20">
+            <h4>EMPRESAS</h4>
             <div class="text-muted margin-t-20">
               <ul class="list-unstyled footer-list">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="http://domicity.com.co/call-center/">Call center</a>
                 </li>
                 <li>
-                  <a href="#">About us</a>
+                  <a href="http://domicity.com.co/chat-bot/">Chat bot</a>
                 </li>
                 <li>
-                  <a href="#">Careers</a>
-                </li>
-                <li>
-                  <a href="#">Contact us</a>
+                  <a href="http://domicity.com.co/nur/">Número único</a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 margin-t-20">
-            <h4>Information</h4>
+          <div class="col-lg-6 margin-t-20">
+            <h4>COMPLEMENTARIOS</h4>
             <div class="text-muted margin-t-20">
               <ul class="list-unstyled footer-list">
                 <li>
-                  <a href="#">Terms & Condition</a>
+                  <a href="http://domicity.com.co/marketing/">Marketing</a>
                 </li>
                 <li>
-                  <a href="#">About us</a>
+                  <a href="http://domicity.com.co/encuestas/">Encuestas</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="#">Jobs</a>
                 </li>
                 <li>
                   <a href="#">Bookmarks</a>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 margin-t-20">
+          <!-- <div class="col-lg-3 margin-t-20">
             <h4>Support</h4>
             <div class="text-muted margin-t-20">
               <ul class="list-unstyled footer-list">
@@ -78,7 +75,7 @@ export default {
                 <i class="pe-7s-paper-plane"></i>
               </a>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
@@ -92,35 +89,35 @@ export default {
             <div class="float-left pull-none">
               <p
                 class="copy-rights text-muted mb-3 mb-sm-0"
-              >2019 - {{ new Date().getFullYear()}} © Hiric - Themesbrand</p>
+              >2004 - {{ new Date().getFullYear()}} © DOMICITY</p>
             </div>
             <div class="float-right pull-none">
               <ul class="list-inline social m-0">
                 <li class="list-inline-item">
-                  <a href class="social-icon">
+                  <a href="https://www.facebook.com/domicitylaciudad" class="social-icon">
                     <i class="mdi mdi-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href class="social-icon">
-                    <i class="mdi mdi-twitter"></i>
+                  <a href="https://www.instagram.com/domicity.co/?hl=es-la" class="social-icon">
+                    <i class="mdi mdi-instagram"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href class="social-icon">
-                    <i class="mdi mdi-linkedin"></i>
+                  <a href="https://api.whatsapp.com/send?phone=573212366880&text=Bienvenido_a_la_ciudad_de_los_domicilios" class="social-icon">
+                    <i class="mdi mdi-whatsapp"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
+                <!-- <li class="list-inline-item">
                   <a href class="social-icon">
                     <i class="mdi mdi-google-plus"></i>
                   </a>
-                </li>
-                <li class="list-inline-item">
+                </li> -->
+                <!-- <li class="list-inline-item">
                   <a href class="social-icon">
                     <i class="mdi mdi-dribbble"></i>
                   </a>
-                </li>
+                </li> -->
               </ul>
             </div>
             <div class="clearfix"></div>

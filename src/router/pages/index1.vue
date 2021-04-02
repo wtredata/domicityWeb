@@ -36,7 +36,7 @@ export default {
       <div class="container">
         <!-- LOGO -->
         <a class="navbar-brand logo text-uppercase" href="/">
-          <i class="mdi mdi-alien"></i>Domicity
+          <img src="../../assets/images/logo-1.png" width="70">
         </a>
 
         <button
@@ -71,7 +71,7 @@ export default {
                 class="nav-link"
                 data-scroll-spy-id="features"
                 href="javascript: void(0);"
-              >Quienes Somos</a>
+              >¿Quiénes somos?</a>
             </li>
             <li class="nav-item">
               <a
@@ -95,7 +95,7 @@ export default {
                 class="nav-link"
                 data-scroll-spy-id="pricing"
                 href="javascript: void(0);"
-              >Servicio al Cliente</a>
+              >Servicio al cliente</a>
             </li>
             <li class="nav-item">
               <a
@@ -103,7 +103,7 @@ export default {
                 class="nav-link"
                 data-scroll-spy-id="blog"
                 href="javascript: void(0);"
-              >Plan de Marketing</a>
+              >Plan de marketing</a>
             </li>
            <!--  <li class="nav-item">
               <a
@@ -134,14 +134,14 @@ export default {
         class="section bg-home home-half"
         id="home"
         style="background-repeat: no-repeat !important; background-size: cover;background-position: center;"
-        :style="{'background': 'url(' + require('@/assets/images/home.png') + ')'}"
+        :style="{'background': 'url(' + require('@/assets/images/banner.png') + ')'}"
       >
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 text-black text-left">
-              <h1 class="home-title offset-lg-1">¿Qué es DomiCity?</h1>
-              <p class="padding-t-15 home-desc mx-auto">
-                DomiCity es una plataforma de domicilios con énfasis en restaurantes, <br>
+            <div class="col-lg-8 text-white text-left">
+              <h6 class="home-title offset-lg-1">¿Qué es DOMICITY?</h6>
+              <p class="padding-t-15 home-desc mx-auto text-white">
+                Es una plataforma de domicilios con énfasis en restaurantes, <br>
                 productos alimenticios y más.
               </p>
             </div>
@@ -154,42 +154,42 @@ export default {
         <div class="container">
           <div class="row">
             <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
+              <div class="client-images my-3 my-md-0 align-center">
                 <img
-                  src="@/assets/images/clients/1.png"
-                  alt="logo-img"
+                  src="@/assets/images/icons/icon-marketing.png"
                   class="mx-auto img-fluid d-block"
                 />
+                Marketing
               </div>
             </div>
 
             <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
+              <div class="client-images my-3 my-md-0 align-center">
                 <img
-                  src="@/assets/images/clients/2.png"
-                  alt="logo-img"
+                  src="@/assets/images/icons/icon-chat-bot.png"
                   class="mx-auto img-fluid d-block"
                 />
+                Chat Bot
               </div>
             </div>
 
             <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
+              <div class="client-images my-3 my-md-0 align-center">
                 <img
-                  src="@/assets/images/clients/3.png"
-                  alt="logo-img"
+                  src="@/assets/images/icons/icon-call-center.png"
                   class="mx-auto img-fluid d-block"
                 />
+                Call center
               </div>
             </div>
 
             <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
+              <div class="client-images my-3 my-md-0 align-center">
                 <img
-                  src="@/assets/images/clients/4.png"
-                  alt="logo-img"
+                  src="@/assets/images/icons/icon-app.png"
                   class="mx-auto img-fluid d-block"
                 />
+                Aplicación móvil
               </div>
             </div>
           </div>
