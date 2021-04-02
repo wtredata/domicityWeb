@@ -380,10 +380,10 @@ iframe {
     text-transform: uppercase;
     /* letter logo */
     color: #fff !important;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 2px;
     height: auto;
-    font-family: 'Sarabun', sans-serif;
+    font-family: 'Panton';
 }
 
 .navbar-custom .navbar-nav li a {
