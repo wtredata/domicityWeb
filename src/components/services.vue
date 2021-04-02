@@ -315,17 +315,17 @@ export default {
 
 <style lang="scss">
   #myservices div:hover {
-    background-color: #D32B35;
-    color: white;
+    background-color: #D32B35 !important;
+    color: white !important;
     cursor: pointer;
-    p.text-dark, i {
+    p.text-dark, i, h4 {
       color: white !important;
     }
     
   }
 
   .header_modal {
-    background-color: #D32B35;
-    color: white;
+    background-color: #D32B35 !important;
+    color: white !important;
   }
 </style>
