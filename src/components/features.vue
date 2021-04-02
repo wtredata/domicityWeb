@@ -16,11 +16,11 @@ export default {
           <div class="features-box mt-5 mt-lg-0">
             <h3>Somos una compañía con 17 años de experiencia en el segmento domicilios</h3>
             <p
-              class="text-muted web-desc"
+              class="text-dark web-desc"
             >
               Disponemos de un portafolio de servicios para las marcas que ven en el canal domicilios 
               una oportunidad de generar ventas y rentabilidad:</p>
-            <ul class="text-muted list-unstyled margin-t-30 features-item-list">
+            <ul class="text-dark list-unstyled margin-t-30 features-item-list">
               <li class>Chatbots</li>
               <li class>Número Único Redireccionado</li>
               <li class>Marketing</li>

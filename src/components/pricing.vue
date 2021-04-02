@@ -13,7 +13,7 @@ export default {
           <div class="features-box mt-5 mt-lg-0">
             <h3>Servicio al cliente</h3>
             <p
-              class="text-muted web-desc"
+              class="text-dark web-desc"
             >
               Además de los canales de contacto digital para la atención de PQR y demás, dispondremos de asistencia telefónica al usuario en la línea 6004262.
               <br><br>

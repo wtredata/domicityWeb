@@ -15,7 +15,7 @@ export default {
         <div class="row">
           <div class="col-lg-6 margin-t-20">
             <h4>EMPRESAS</h4>
-            <div class="text-muted margin-t-20">
+            <div class="color-primary margin-t-20">
               <ul class="list-unstyled footer-list">
                 <li>
                   <a href="http://domicity.com.co/call-center/">Call center</a>
@@ -31,7 +31,7 @@ export default {
           </div>
           <div class="col-lg-6 margin-t-20">
             <h4>COMPLEMENTARIOS</h4>
-            <div class="text-muted margin-t-20">
+            <div class="color-primary margin-t-20">
               <ul class="list-unstyled footer-list">
                 <li>
                   <a href="http://domicity.com.co/marketing/">Marketing</a>
@@ -50,7 +50,7 @@ export default {
           </div>
           <!-- <div class="col-lg-3 margin-t-20">
             <h4>Support</h4>
-            <div class="text-muted margin-t-20">
+            <div class="color-primary margin-t-20">
               <ul class="list-unstyled footer-list">
                 <li>
                   <a href>FAQ</a>
@@ -66,7 +66,7 @@ export default {
           </div>
           <div class="col-lg-3 margin-t-20">
             <h4>Subscribe</h4>
-            <div class="text-muted margin-t-20">
+            <div class="color-primary margin-t-20">
               <p>In an ideal world this text wouldn’t exist, a client would acknowledge the importance of having web copy before the design starts.</p>
             </div>
             <form class="form subscribe">
@@ -88,7 +88,7 @@ export default {
           <div class="col-lg-12">
             <div class="float-left pull-none">
               <p
-                class="copy-rights text-muted mb-3 mb-sm-0"
+                class="copy-rights color-primary mb-3 mb-sm-0"
               >2004 - {{ new Date().getFullYear()}} © DOMICITY</p>
             </div>
             <div class="float-right pull-none">

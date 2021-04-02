@@ -15,7 +15,7 @@ export default {
             <h1 class="section-title text-center">Nuestros Servicios</h1>
             <div class="section-title-border margin-t-20"></div>
             <p
-              class="section-subtitle text-muted text-center padding-t-30 font-secondary"
+              class="section-subtitle text-dark text-center padding-t-30 font-secondary"
             >Como queremos enfocarnos en la experiencia del cliente, haciéndola más ágil y liviana, nos concentraremos en productos más que en establecimientos.</p>
           </div>
         </div>
@@ -25,9 +25,9 @@ export default {
               <div class="media">
                 <i class="pe-7s-diamond text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>DomiCity Club</h4>
+                  <h4 class="color-primary">DomiCity Club</h4>
                   <p
-                    class="pt-2 text-muted"
+                    class="pt-2 text-dark"
                   >Es una membresía de pago anual para los usuarios, que les otorgará ciertos beneficios especiales.</p>
                 </div>
               </div>
@@ -38,9 +38,9 @@ export default {
               <div class="media">
                 <i class="pe-7s-wallet text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Billetera</h4>
+                  <h4 class="color-primary">Billetera</h4>
                   <p
-                    class="pt-2 text-muted"
+                    class="pt-2 text-dark"
                   >Es el monedero virtual que tendrá cada usuario y en el cual se acumulará el saldo que obtiene por sus compras.</p>
                 </div>
               </div>
@@ -51,9 +51,9 @@ export default {
               <div class="media">
                 <i class="pe-7s-gift text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Entregas</h4>
+                  <h4 class="color-primary">Entregas</h4>
                   <p
-                    class="pt-2 text-muted"
+                    class="pt-2 text-dark"
                   >Tus domiciliarios harán uso de nuestro módulo logístico para informarles acerca del estado y localización del pedido.</p>
                 </div>
               </div>
@@ -64,9 +64,9 @@ export default {
               <div class="media">
                 <i class="pe-7s-piggy text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Pagos</h4>
+                  <h4 class="color-primary">Pagos</h4>
                   <p
-                    class="pt-2 text-muted"
+                    class="pt-2 text-dark"
                   >También queremos diferenciarnos en el sistema de recaudación y pagos, ofrecienco pagos en efectivo y en línea.</p>
                 </div>
               </div>
@@ -82,7 +82,7 @@ export default {
                 <div class="media-body ml-4">
                   <h4>Plan de Marketing</h4>
                   <p
-                    class="pt-2 text-muted"
+                    class="pt-2 text-dark"
                   >Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default {
                 <div class="media-body ml-4">
                   <h4>Tarifas</h4>
                   <p
-                    class="pt-2 text-muted"
+                    class="pt-2 text-dark"
                   >Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia.</p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export default {
                 <div class="media-body ml-4">
                   <h4>Pixel Perfect Design</h4>
                   <p
-                    class="pt-2 text-muted"
+                    class="pt-2 text-dark"
                   >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                 </div>
               </div>
@@ -124,7 +124,7 @@ export default {
                 <div class="media-body ml-4">
                   <h4>Perfect Toolbox</h4>
                   <p
-                    class="pt-2 text-muted"
+                    class="pt-2 text-dark"
                   >Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default {
                 <div class="media-body ml-4">
                   <h4>Awesome Design</h4>
                   <p
-                    class="pt-2 text-muted"
+                    class="pt-2 text-dark"
                   >All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
                 </div>
               </div>
@@ -182,7 +182,7 @@ export default {
       >
         <div class="block block-themed block-transparent mb-0">
           <div class="block-header header_modal">
-            <h3 class="block-title">Domicity Club</h3>
+            <h3 class="text-center padding-t-15">Domicity Club</h3>
             <br>
           </div>
           <b-container fluid class="p-4">   
@@ -190,8 +190,11 @@ export default {
 
             <ol>
               <li>Descuentos de mínimo el 5% en cualquier producto que compre en la plataforma.</li>
+              <br>
               <li>Abono del 1% de la compra al usuario para redimirlo en compras futuras, a cargo de DomiCity, sin fecha de caducidad mientras la afiliación esté activa.</li>
+              <br>
               <li>Producto adicional, obsequios o cualquier otro beneficio que cada comercio quiera libremente asignar y que represente un valor tangible y apreciable para el usuario.</li>
+              <br>
               <li>Entrega del 10% del valor recaudado por nuestra membresía a la fundación Alimentar. No concebimos nuestro emprendimiento en ausencia de alguna contribución social a una causa meritoria.</li>
             </ol>
 
@@ -199,7 +202,7 @@ export default {
             <br><br>
             Así que no solo le pagas a DomiCity por sus servicios, sino que DomiCity te paga por los tuyos. Cuanto más exitoso sea tu establecimiento en la plataforma, mayor ingreso recibes en retorno.
           </b-container>
-          <div class="block-content block-content-full text-right border-top">
+          <div class="block-content block-content-full text-center border-top padding-b-10 padding-t-15">
             <b-button
               variant="danger"
               size="sm"
@@ -222,15 +225,15 @@ export default {
       >
         <div class="block block-themed block-transparent mb-0">
           <div class="block-header header_modal">
-            <h3 class="block-title">Domicity Club</h3>
+            <h3 class="text-center padding-t-15">Domicity Club</h3>
             <br>
           </div>
           <b-container fluid class="p-4">   
             Es el monedero virtual que tendrá cada usuario y en el cual se acumulará el saldo que obtiene por sus compras. 
-            Allí mismo cargaremos saldo adicional obsequiado por nosotros o por los comercios que lo deseen a usuarios 
+            <br> Allí mismo cargaremos saldo adicional obsequiado por nosotros o por los comercios que lo deseen a usuarios 
             seleccionados según criterios elegidos (consumo frecuente, montos superiores de compra, cumpleaños, etc.)
           </b-container>
-          <div class="block-content block-content-full text-right border-top">
+          <div class="block-content block-content-full text-center border-top padding-b-10 padding-t-15">
             <b-button
               variant="danger"
               size="sm"
@@ -253,7 +256,7 @@ export default {
       >
         <div class="block block-themed block-transparent mb-0">
           <div class="block-header header_modal">
-            <h3 class="block-title">Domicity Club</h3>
+            <h3 class="text-center padding-t-15">Domicity Club</h3>
             <br>
           </div>
           <b-container fluid class="p-4">   
@@ -263,7 +266,7 @@ export default {
             <br><br>
             Lo que sí tenemos claro es que no queremos emplear sistemas de entrega por demanda desprovistos de la debida cobertura laboral a la fuerza logística. Es de público conocimiento el grado de desprotección que enfrentan los domiciliarios que trabajan para las plataformas más reconocidas del mercado y la manera deficiente en que muchas veces se entregan los domicilios a través de esta fuerza de trabajo. Es un esquema que no queremos replicar.
           </b-container>
-          <div class="block-content block-content-full text-right border-top">
+          <div class="block-content block-content-full text-center border-top padding-b-10 padding-t-15">
             <b-button
               variant="danger"
               size="sm"
@@ -286,18 +289,17 @@ export default {
       >
         <div class="block block-themed block-transparent mb-0">
           <div class="block-header header_modal">
-            <h3 class="block-title">Domicity Club</h3>
+            <h3 class="text-center padding-t-15">Domicity Club</h3>
             <br>
           </div>
           <b-container fluid class="p-4">   
             También queremos diferenciarnos en el sistema de recaudación y pagos:
-
             <ol>
-              <li>Pago en efectivo: como tu comercio entrega los domicilios con tus propios repartidores, cuando el pago sea en esta modalidad o con datáfono, recibirás de forma directa el pago del pedido.</li>
+              <br><li>Pago en efectivo: como tu comercio entrega los domicilios con tus propios repartidores, cuando el pago sea en esta modalidad o con datáfono, recibirás de forma directa el pago del pedido.</li> <br>
               <li>Pago en línea: no recaudaremos el dinero para entregarlo posteriormente a los comercios según el plazo acordado. Recibirás directamente el dinero de tus pedidos y nosotros facturaremos periódicamente nuestro servicio de contacto entre consumidores y establecimientos.</li>
             </ol>
           </b-container>
-          <div class="block-content block-content-full text-right border-top">
+          <div class="block-content block-content-full text-center border-top padding-b-10 padding-t-15">
             <b-button
               variant="danger"
               size="sm"
@@ -316,7 +318,7 @@ export default {
     background-color: #D32B35;
     color: white;
     cursor: pointer;
-    p.text-muted, i {
+    p.text-dark, i {
       color: white !important;
     }
     
