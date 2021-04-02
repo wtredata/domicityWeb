@@ -16,7 +16,7 @@ export default {
           <h1 class="section-title text-center">¿Quieres ser un Aliado?</h1>
           <div class="section-title-border margin-t-20"></div>
           <p
-            class="section-subtitle text-muted text-center font-secondary padding-t-30"
+            class="section-subtitle text-dark text-center font-secondary padding-t-30"
           >
             Compártenos tu información a través del siguiente formulario y pronto te contactaremos
           </p>
@@ -28,14 +28,14 @@ export default {
             <p class="mt-4">
               <span class="h4 bold color-primary">Dirección</span>
               <br />
-              <span class="text-muted d-block mt-2"
+              <span class="text-dark d-block mt-2"
                 >Carrera 23 # 86A – 49, Bogotá DC</span
               >
             </p>
             <p class="mt-4">
               <span class="h4 bold color-primary">Teléfonos</span>
               <br />
-              <span class="text-muted d-block mt-2">
+              <span class="text-dark d-block mt-2">
                 (+57) 321 236 6880
                 <br />(+57 1) 6004640
               </span>
@@ -43,7 +43,7 @@ export default {
             <p class="mt-4">
               <span class="h4 bold color-primary">Correo electrónico</span>
               <br />
-              <span class="text-muted d-block mt-2">info@domicity.com.co</span>
+              <span class="text-dark d-block mt-2">info@domicity.com.co</span>
             </p>
           </div>
         </div>
@@ -171,8 +171,8 @@ export default {
                   </b-form-group>
                 </b-col>
               </b-row>
-              <div class="block-content block-content-full text-right">
-                <b-button variant="primary" size="sm" type="submit">
+              <div class="block-content block-content-full">
+                <b-button class="text-white" size="sm" type="submit">
                   <i class="fa fa-smile-wink mr-1"></i> Enviar
                 </b-button>
               </div>
