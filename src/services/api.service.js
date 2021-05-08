@@ -5,13 +5,13 @@ import "sweetalert2/src/sweetalert2.scss";
 
 const ApiService = {
   init() {
-    axios.defaults.baseURL = "http://domicityapi.bancodeempleo.co/";
+    axios.defaults.baseURL = "https://api.domicity.co/";
     /* this.getFirstTokenWeb(); */
 
     },
 
     setHeader() {
-        axios.defaults.baseURL = "http://domicityapi.bancodeempleo.co/";
+        axios.defaults.baseURL = "https://api.domicity.co/";
         // axios.defaults.baseURL = "http://192.168.1.8:8000/";
         let token = TokenService.getToken();
         axios.defaults.headers.common["Content-Type"] = 'application/json';
