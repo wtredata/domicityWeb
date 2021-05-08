@@ -1,14 +1,9 @@
 <script>
 import Features from "@/components/features";
 import Services from "@/components/services";
-import About from "@/components/about";
 import Pricing from "@/components/pricing";
-import Testimonial from "@/components/testimonial";
-import GetStarted from "@/components/getstarted";
-import Blog from "@/components/blog";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
-import Switcher from "@/components/switcher";
 
 /**
  * Index-1 component
@@ -17,14 +12,9 @@ export default {
   components: {
     Features,
     Services,
-    About,
     Pricing,
-    Testimonial,
-    GetStarted,
-    Blog,
     Contact,
-    Footer,
-    Switcher
+    Footer
   },
   methods: {
     /**
@@ -46,7 +36,7 @@ export default {
       <div class="container">
         <!-- LOGO -->
         <a class="navbar-brand logo text-uppercase" href="/">
-          <i class="mdi mdi-alien"></i>Domicity
+          <img src="../../assets/images/logo-1.png" width="70">
         </a>
 
         <button
@@ -73,7 +63,7 @@ export default {
                 class="nav-link"
                 data-scroll-spy-id="home"
                 href="javascript: void(0);"
-              >Home</a>
+              >Inicio</a>
             </li>
             <li class="nav-item">
               <a
@@ -81,7 +71,7 @@ export default {
                 class="nav-link"
                 data-scroll-spy-id="features"
                 href="javascript: void(0);"
-              >Features</a>
+              >¿Quiénes somos?</a>
             </li>
             <li class="nav-item">
               <a
@@ -89,45 +79,48 @@ export default {
                 class="nav-link"
                 data-scroll-spy-id="services"
                 href="javascript: void(0);"
-              >Services</a>
+              >Servicios</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a
                 v-scroll-to="{ el:'#about', offset: -5 }"
                 class="nav-link"
                 data-scroll-spy-id="about"
                 href="javascript: void(0);"
-              >About</a>
-            </li>
+              >Pagos</a>
+            </li> -->
             <li class="nav-item">
               <a
                 v-scroll-to="{ el:'#pricing', offset: -5 }"
                 class="nav-link"
                 data-scroll-spy-id="pricing"
                 href="javascript: void(0);"
-              >Pricing</a>
+              >Servicio al cliente</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a
                 v-scroll-to="{ el:'#blog'}"
                 class="nav-link"
                 data-scroll-spy-id="blog"
                 href="javascript: void(0);"
-              >Blog</a>
-            </li>
-            <li class="nav-item">
+              >Plan de marketing</a>
+            </li> -->
+           <!--  <li class="nav-item">
               <a
                 v-scroll-to="{ el:'#contact' }"
                 class="nav-link"
                 data-scroll-spy-id="contact"
                 href="javascript: void(0);"
-              >Contact</a>
-            </li>
+              >Aliado</a>
+            </li> -->
           </ul>
           <div class="nav-button ml-auto">
             <ul class="nav navbar-nav navbar-right">
               <li>
-                  <button type="button" class="btn btn-custom navbar-btn btn-rounded">Try it Free</button><!-- @click="$router.push('login')" -->
+                  <button v-scroll-to="{ el:'#contact' }"
+                class="btn btn-custom navbar-btn btn-rounded"
+                data-scroll-spy-id="contact"
+                href="javascript: void(0);">Ser Aliado</button><!-- @click="$router.push('login')" -->
               </li>
             </ul>
           </div>
@@ -140,27 +133,16 @@ export default {
       <section
         class="section bg-home home-half"
         id="home"
-        style="background-size: cover;background-position: center;"
-        :style="{'background': 'url(' + require('@/assets/images/bg-home.jpg') + ')'}"
+        style="background-repeat: no-repeat !important; background-size: cover;background-position: center;"
+        :style="{'background': 'url(' + require('@/assets/images/banner.png') + ')'}"
       >
-        <div class="bg-overlay"></div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 offset-lg-2 text-white text-center">
-              <h4 class="home-small-title">Awesome Design</h4>
-              <h1 class="home-title">We love make things amazing and simple</h1>
-              <p class="padding-t-15 home-desc mx-auto">
-                Maecenas class semper class semper sollicitudin lectus lorem
-                iaculis imperdiet aliquam vehicula tempor auctor curabitur pede
-                aenean ornare.
-              </p>
-              <p class="play-shadow margin-l-r-auto">
-                <a v-b-modal.modal class="play-btn video-play-icon">
-                  <i class="mdi mdi-play text-center"></i>
-                </a>
-                <b-modal id="modal" hide-footer size="lg" centered header-close-variant="white">
-                  <youtube video-id="lG0Ys-2d4MA" ref="youtube" width="900" height="500"></youtube>
-                </b-modal>
+            <div class="col-lg-8 text-white text-left">
+              <h6 class="home-title offset-lg-1">¿Qué es DOMICITY?</h6>
+              <p class="padding-t-15 home-desc mx-auto text-white">
+                Es una plataforma de domicilios con énfasis en restaurantes, <br>
+                productos alimenticios y más.
               </p>
             </div>
           </div>
@@ -172,42 +154,42 @@ export default {
         <div class="container">
           <div class="row">
             <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
+              <div class="client-images my-3 my-md-0 align-center">
                 <img
-                  src="@/assets/images/clients/1.png"
-                  alt="logo-img"
+                  src="@/assets/images/icons/icon-marketing.png"
                   class="mx-auto img-fluid d-block"
                 />
+                Marketing
               </div>
             </div>
 
             <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
+              <div class="client-images my-3 my-md-0 align-center">
                 <img
-                  src="@/assets/images/clients/2.png"
-                  alt="logo-img"
+                  src="@/assets/images/icons/icon-chat-bot.png"
                   class="mx-auto img-fluid d-block"
                 />
+                Chat Bot
               </div>
             </div>
 
             <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
+              <div class="client-images my-3 my-md-0 align-center">
                 <img
-                  src="@/assets/images/clients/3.png"
-                  alt="logo-img"
+                  src="@/assets/images/icons/icon-call-center.png"
                   class="mx-auto img-fluid d-block"
                 />
+                Call center
               </div>
             </div>
 
             <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
+              <div class="client-images my-3 my-md-0 align-center">
                 <img
-                  src="@/assets/images/clients/4.png"
-                  alt="logo-img"
+                  src="@/assets/images/icons/icon-app.png"
                   class="mx-auto img-fluid d-block"
                 />
+                Aplicación móvil
               </div>
             </div>
           </div>
@@ -216,14 +198,9 @@ export default {
 
       <Features />
       <Services />
-      <About />
       <Pricing />
-      <Testimonial />
-      <GetStarted />
-      <Blog />
       <Contact />
       <Footer />
-      <Switcher />
     </div>
   </div>
 </template>
